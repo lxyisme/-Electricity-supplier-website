@@ -1,0 +1,64 @@
+/*分页公用头部样式*/
+.layout{
+    width:990px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+header{
+
+    border-bottom: 2px #222 solid;
+}
+header .layout{
+    overflow: inherit;
+    height: 66px;
+}
+.logo{
+    display: block;
+    margin-top:13px ;
+    float: left;
+}
+.h_nav{
+    float: right;
+    margin-top:19px;
+}
+.h_nav li{
+    float: left;
+    font-size: 10px;
+    position: relative;
+    padding:0 10px;
+    height: 28px;
+    line-height: 28px;
+}
+.h_nav li span{
+    float: left;
+}
+.h_nav li a{
+    color: #000;
+    float: left;
+}
+.h_n_sc i{
+    float: right;
+    margin-top: 8px;
+    width:12px;
+    height:12px;
+    background:url("../img/public_paging_header/nav_t.png") no-repeat center;
+}
+.h_n_sc:hover{
+    background: #EAECEB;
+}
+.h_n_sc:hover i{
+    background:url("../img/public_paging_header/nav_b.png") no-repeat center;
+}
+ .h_b_nav{
+    position: absolute;
+    top:28px;
+    width:100%;
+    left: 0;
+     display: none;
+     opacity:0;
+}
+ .h_b_nav li{
+    float: none;
+    background: #EAECEB;
+    border-top: 1px #ddd solid;
+}

@@ -1,0 +1,471 @@
+/*登陆界面中间部分样式*/
+.main{
+    padding-top: 128px;
+
+}
+.m_l{
+    height:416px;
+    float: left;
+    width:495px;
+    margin-bottom: 108px;
+    border-right: 1px #DFDFDF solid;
+}
+.m_l img{
+    margin: 100px 0 0 82px;
+}
+.m_r{
+    width:494px;
+    /*height:416px;*/
+    float: left;
+}
+/*登陆模块共同样式*/
+.land{
+    width:270px;
+    padding-left: 82px;
+    /*overflow: hidden;*/
+}
+/*二维码登陆模块*/
+.land_btn{
+    width:38px;
+    height:38px;
+    float: right;
+    overflow: hidden;
+}
+.land_1 button{
+    background: url("../img/Logintoregister/sprite.passport.png") no-repeat -311px -90px;
+}
+.land_1 h2{
+    clear: both;
+    font-weight: bolder;
+    padding-top: 32px;
+    text-align: center;
+    font-size: 15px;
+}
+.land_qr{
+    margin-top: 40px;
+    width:270px;
+    height: 140px;
+    position: relative;
+}
+.land_qr p{
+    position: absolute;
+}
+.land_qr_img{
+    width:140px;
+    height:140px;
+    left: 66px;
+    background: url("../img/Logintoregister/Qrcode_2.png") no-repeat center;
+}
+.hint{
+    width:160px;
+    height:160px;
+    top:-20px;
+    right: -15px;
+    background: url("../img/Logintoregister/sprite.passport_r1_c1.png") no-repeat center;
+    background-size: contain;
+    opacity: 0;
+    display: none;
+}
+.land_q_t{
+    margin-top:24px;
+    width:195px;
+    color: #a1a1a1;
+    margin-left: 40px;
+    overflow: hidden;
+}
+.land_q_t span{
+    float: left;
+    width: 28px;
+    height:28px;
+    margin-right: 16px;
+    background: url("../img/Logintoregister/sprite.passport.png") no-repeat -459px -29px;
+}
+.land_q_t b{
+    width:150px;
+    float: left;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1;
+}
+.land_install{
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 12px;
+    color: #f00;
+}
+/*用户名密码登陆模块*/
+.land_2 {
+    display: none;
+}
+.land_2 .land_btn{
+    background: url("../img/Logintoregister/sprite.passport.png") no-repeat -351px -90px;
+}
+.land_s_b{
+    clear: both;
+    font-weight: bolder;
+    padding-top: 32px;
+    height:22px;
+    position: relative;
+}
+.land_s_b span{
+    float: left;
+    font-size: 18px;
+}
+.land_s{
+    float: right;
+    position: relative;
+}
+.land_s a{
+    font-size: 16px;
+    text-align: right;
+    padding-right: 19px;
+    color: #B9BDC3;
+    background: url("../img/Logintoregister/select_bg.png")no-repeat right center;
+    font-weight: normal;
+}
+.select{
+    position: absolute;
+    width:114px;
+    height:0;
+    padding-left:10px;
+    border-radius: 5px;
+    right: 0;
+    overflow: hidden;
+    background: #fff;
+    z-index: 1;
+}
+.select li{
+    font-size: 14px;
+    padding-top: 1px;
+    font-weight: normal;
+    cursor: pointer;
+}
+.l_q_btn{
+    width:270px;
+    margin-top: 26px;
+    height:25px;
+    background: url("../img/Logintoregister/sprite.passport.png") no-repeat -312px -1px ;
+}
+.l_q_btn a{
+    height:25px;
+    float: left;
+    color: #000;
+    line-height: 25px;
+    width:135px;
+    font-size: 14px;
+    text-align: center;
+    background: url("../img/Logintoregister/sprite.l_btn_bg.png") no-repeat;
+}
+.l_q_btn .l_q_b_l{
+    color: #fff;
+}
+.l_q_btn .l_q_b_r{
+    background-position-x:-135px ;
+}
+.user_input{
+    display: block;
+    height:45px;
+    border:1px #dbdbdb solid;
+    background: #FAFFBD;
+    padding-left: 10px;
+    width:260px;
+    margin-top: 26px;
+}
+.v_c{
+    margin-top: 26px;
+    font-size: 12px;
+    color: #B4B4B4;
+    overflow: hidden;
+}
+.v_c span{
+    float: left;
+}
+.v_c_btn{
+    float: right;
+    color: #f00;
+}
+.v_img{
+    width:270px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.v_img li{
+    float: left;
+    width:60px;
+    height:60px;
+    border:1px #E0E0E0 solid;
+    cursor: pointer;
+}
+.dl{
+    width:270px;
+    margin-top: 28px;
+    height:46px;
+    text-align: center;
+    background: #FF1901;
+    color: #fff;
+}
+.dl_options{
+    margin-top: 25px;
+    height: 16px;
+    font-size: 14px;
+    line-height: 16px;
+}
+.dl_options h1{
+    float: left;
+    color: #B9B9B9;
+}
+.dl_options h1 input{
+    width: 14px;
+    height:14px;
+    margin-right: 4px;
+    border:none;
+}
+.dl_options p{
+    float: right;
+    color: #B9B9B9;
+}
+.dl_options p a{
+    color: #B9B9B9;
+    font-size: 14px;
+    line-height: 16px;
+}
+.dl_options p .zc{
+    color: #f00;
+}
+.dl_href{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+.dl_href li a{
+    display: block;
+    width:30px;
+    height:30px;
+    border-radius: 15px;
+    background: url("../img/Logintoregister/sprite.passport.png") no-repeat ;
+}
+.dl_href li:nth-child(1) a{
+    background-position:-423px -90px ;
+}
+.dl_href li:nth-child(2) a{
+    background-position:-529px -58px ;
+}
+.dl_href li:nth-child(3) a{
+    background-position:-497px -58px ;
+}
+.dl_href li:nth-child(4) a{
+    background-position:-433px -58px ;
+}
+.dl_href li:nth-child(5) a{
+    background-position:-391px -90px ;
+}
+.dl_href li:nth-child(6) a{
+    background-position:-465px -58px ;
+}
+.l_sj{
+    display: none;
+}
+.user_sj{
+    display: block;
+    height:45px;
+    border:1px #dbdbdb solid;
+    padding-left: 10px;
+    width:260px;
+    margin-top: 26px;
+}
+.getSms{
+    margin-top: 26px;
+    overflow: hidden;
+}
+.getSms input{
+    float: left;
+    width:118px;
+    padding-left: 10px;
+    height: 45px;
+    border:1px #DBDBDB solid;
+}
+.getSms button{
+    float: right;
+    height: 47px;
+    width:128px;
+    background: #FF1B04;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+}
+/*注册页面*/
+.registered{
+    width:270px;
+    padding-left: 82px;
+}
+.re_sel{
+    width: 130px;
+    height:28px;
+    /*padding-left: 4px;*/
+    color: #9A9A9A;
+    font-size: 16px;
+    display: block;
+}
+.re_ipt_pon{
+    margin-top: 25px;
+    width:268px;
+    height: 43px;
+    border:1px #C1C1C1 solid;
+    position: relative;
+}
+.re_ipt_pon  .phone_validation {
+    position: absolute;
+    right:-140px;
+    height: auto;
+    width:140px;
+    border: none;
+    color: #f00;
+    font-size: 12px;
+}
+.re_ipt_pon span{
+    float: left;
+    height: 43px;
+    line-height: 43px;
+    width:57px;
+    border-right: 1px #C1C1C1 solid;
+    text-align: center;
+    font-size: 14px;
+    color: #C1C1C1;
+}
+.re_ipt_pon input{
+    width:210px;
+    border: none;
+    height: 43px;
+    text-indent: 10px;
+}
+.re_psw{
+    margin-top: 25px;
+    /*overflow: hidden;*/
+    position: relative;
+}
+.re_psw input{
+    height: 43px;
+    width: 268px;
+    border:1px #FF0000 solid;
+    text-indent: 20px;
+    display: block;
+}
+.re_psw p{
+    margin-top: 10px;
+    float: right;
+}
+.password_validation{
+    position: absolute;
+    right:-160px;
+    height: auto;
+    width:140px;
+    border: none;
+    font-size: 12px;
+    top: 8px;
+    color: #f00;
+}
+.re_psw p span{
+    display: block;
+    width:32px;
+    height: 14px;
+    background: #e8e8e8;
+    color: #B9BABA;
+    float: left;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    margin-left: 5px;
+}
+.agreement{
+    margin-top: 30px;
+    font-size: 13px;
+    color: #CACACA;
+    width:300px;
+}
+.agreement input{
+    margin-right: 8px;
+}
+.agreement a{
+    font-size: 13px;
+    text-decoration: underline;
+    color: #f00;
+}
+.re_rebtn{
+    margin-top: 26px;
+    position: relative;
+}
+.re_rebtn button{
+    width:270px;
+    height:45px;
+    background: #555;
+    line-height: 45px;
+    text-align: center;
+    color: #fff;
+}
+.re_qrShow{
+    position: absolute;
+    width:28px;
+    height: 28px;
+    padding: 7px;
+    border: 1px #B0B0B0 solid;
+    top:0;
+    right:-55px;
+    background: #fff url("../img/Logintoregister/smoll_qr.png") no-repeat center;
+    cursor: pointer;
+}
+.re_qrShow_box{
+    width:230px;
+    height: 290px;
+    border:1px #B0B0B0 solid;
+    background: #f8f8f8 url("../img/Logintoregister/Qrcode_3.png")no-repeat center 32px;
+    position: absolute;
+    top:-248px;
+    right: -298px;
+    display: none;
+}
+.re_qrShow_box h1{
+    margin-top: 200px;
+    text-align: center;
+    font-size: 16px;
+}
+.re_qrShow_box p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+.re_qrShow_box span{
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+.re_qrShow_box b{
+    width:10px;
+    height: 10px;
+    position: absolute;
+    border:1px #B0B0B0 solid;
+    background: #f8f8f8;
+    transform: rotate(45deg);
+    border-right: none;
+    border-top: none;
+    left:-6px;
+    bottom: 16px;
+}
+.clear{
+    clear: both;
+}
+.jump_land{
+    margin-top: 25px;
+    font-size: 12px;
+    margin-bottom: 26px;
+    text-indent: 35px;
+    color: #D9D9D9;
+}
+.jump_land a{
+    font-size: 12px;
+    color: #f00;
+    text-decoration: underline;
+}

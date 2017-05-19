@@ -1,0 +1,229 @@
+.my_cart{
+  overflow: hidden;
+  margin-top: 35px;
+  margin-bottom: 52px;
+  .my_cart_left{
+    float: left;
+    width: 145px;
+    height:38px;
+    margin-top: 7px;
+    background: url("../img/sprite.cart.png")no-repeat -228px top;
+  }
+  .my_cart_right{
+    float: right;
+    width: 444px;
+    margin-top: 5px;
+    border-top: 1px #B0B0B0 solid;
+    .my_cart_right_first{
+      color: #000;
+      span{
+        background-position-x: -242px;
+      }
+    }
+    .my_cart_right_middle{
+      text-align: center;
+      span{
+        left:0;
+        right:0;
+        margin: 0 auto;
+      }
+    }
+    .my_cart_right_last{
+      text-align: right;
+      span{
+        right:0;
+      }
+    }
+    li{
+      position: relative;
+      float: left;
+      height:38px;
+      line-height: 38px;
+      font-size: 14px;
+      color: #9F9F9F;
+      width:148px;
+      span{
+        position: absolute;
+        width:12px;
+        height:12px;
+        background: url("../img/sprite.cart.png") no-repeat -228px -143px;
+        top:-6px;
+      }
+    }
+  }
+}
+.landing_hint{
+  height: 32px;
+  background: #F0F0F0;
+  padding:0 30px;
+  overflow: hidden;
+  p{
+    float: left;
+    height:32px;
+    color: #878787;
+    line-height: 32px;
+    font-size: 14px;
+    a{
+      color: #0883DE;
+    }
+  }
+  button{
+    float: right;
+    height:32px;
+    line-height: 32px;
+    color: #878787;
+    font-size: 14px;
+  }
+}
+.empty{
+  height:347px;
+  overflow: hidden;
+  display: none;
+  margin-bottom: 100px;
+  i{
+    display: block;
+    font-size: 137px;
+    width:137px;
+    margin: 65px auto 0 auto;
+  }
+  p{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px;
+    color: #4D4D4D;
+  }
+  a{
+    display: block;
+    margin: 22px auto 0 auto;
+    height:32px;
+    width:128px;
+    border:1px #000 solid;
+    font-size: 14px;
+    text-align: center;
+    line-height: 32px;
+    color: #000;
+  }
+}
+.cart_box{
+  overflow: hidden;
+  margin-top: 10px;
+}
+.preference{
+  height:50px;
+  padding:0 30px;
+  background: #444444;
+  color: #fff;
+  line-height: 50px;
+  li:nth-child(1){
+    width:207px;
+  }
+  li:nth-child(2){
+    width:244px;
+  }
+  li:nth-child(3){
+    width:135px;
+  }
+  li:nth-child(4){
+    width:144px;
+  }
+  li:nth-child(5){
+    width:166px;
+  }
+  li{
+    input{
+      margin-right: 15px;
+    }
+    float: left;
+  }
+}
+.cart_comments_box{
+  margin: 10px 0;
+  overflow: hidden;
+  border:1px #E0E0E0 solid;
+  height:90px;
+  padding:30px;
+  div{
+    float: left;
+  }
+  .goods_info{
+    input{
+      line-height: 90px;
+      float: left;
+      margin-top: 36px;
+      margin-right: 8px;
+    }
+    div{
+      margin-left: 19px;
+      float: left;
+    }
+    p,h1{
+      width:280px;
+    }
+    h1{
+      font-size: 14px;
+    }
+    p{
+      margin-top: 12px;
+      font-size: 12px;
+      color: #A0A0A0;
+      b{
+        margin-left: 15px;
+        font-weight: normal;
+      }
+    }
+    img{
+      float: left;
+      height:88px;
+      width:64px;
+      border:#E9E9E9;
+    }
+  }
+  .unit_price{
+    width:168px;
+    line-height: 90px;
+    text-align: center;
+    font-size: 14px;
+  }
+  .quantity{
+    padding-top: 33px;
+    button{
+      width: 31px;
+      height:30px;
+      float: left;
+    }
+    .jia{
+      background: url("../img/sprite.cart.png") no-repeat  -284px -44px;
+    }
+    .jian{
+      background: url("../img/sprite.cart.png") no-repeat -317px -44px ;
+    }
+    p{
+      float: left;
+      width: 28px;
+      height:28px;
+      border-top: 1px  #E0E0E0 solid;
+      border-bottom: 1px  #E0E0E0 solid;
+      font-size: 12px;
+      line-height: 28px;
+      text-align: center;
+    }
+  }
+  .total_price{
+    width:204px;
+    text-align: center;
+    line-height: 90px;
+    font-size: 14px;
+    color: #D0191B;
+  }
+  .operation{
+    float: right;
+    padding-top: 27px;
+      a{
+        display: block;
+        text-align: right;
+        width:50px;
+        font-size: 12px;
+        color: #000;
+      }
+  }
+}

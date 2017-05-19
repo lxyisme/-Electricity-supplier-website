@@ -1,0 +1,221 @@
+/*分页公用头部样式*/
+.layout{
+    width:990px;
+    margin: 0 auto;
+    /*overflow: hidden;*/
+}
+header{
+
+    border-bottom: 2px #222 solid;
+}
+header .layout{
+    overflow: inherit;
+    height: 66px;
+}
+.logo{
+    display: block;
+    margin-top:13px ;
+    float: left;
+}
+.h_nav{
+    float: right;
+    margin-top:19px;
+}
+.h_nav li{
+    float: left;
+    font-size: 10px;
+    position: relative;
+    padding:0 10px;
+    height: 28px;
+    line-height: 28px;
+}
+.h_nav li span{
+    float: left;
+}
+.h_nav li a{
+    color: #000;
+    float: left;
+}
+.h_n_sc i{
+    float: right;
+    margin-top: 8px;
+    width:12px;
+    height:12px;
+    background:url("../img/public_paging_header/nav_t.png") no-repeat center;
+}
+.h_n_sc:hover{
+    background: #EAECEB;
+}
+.h_n_sc:hover i{
+    background:url("../img/public_paging_header/nav_b.png") no-repeat center;
+}
+.h_b_nav{
+    position: absolute;
+    top:28px;
+    width:100%;
+    left: 0;
+    display: none;
+}
+.h_b_nav li{
+    float: none;
+    background: #EAECEB;
+    border-top: 1px #ddd solid;
+}
+/*分页公用底部样式*/
+.foot{
+    background: #000;
+}
+.foot_layout{
+    width:1150px;
+    height:295px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.f_t{
+    height: 44px;
+    padding-top: 20px;
+    border-bottom: 1px #262626 solid;
+}
+.f_t p{
+    float: left;
+    color: #fff;
+    height:34px;
+    line-height: 34px;
+    margin-right: 60px;
+    overflow: hidden;
+    font-size: 10px;
+    font-weight: bold;
+}
+.f_t p i{
+    font-size: 30px;
+    float: left;
+    margin-right: 8px;
+    font-weight: normal;
+}
+.f_t p span{
+    color: #f00;
+}
+.f_t p a{
+    color: #fff;
+}
+.f_t input{
+    float: right;
+    width:228px;
+    height:32px;
+    border:1px #262626 solid;
+    color: #666;
+    font-size: 12px;
+    line-height: 32px;
+    padding-left: 10px;
+    background: url("../img/f_ipt_bg.png") no-repeat 200px center;
+}
+.f_m{
+    height:142px;
+    padding-top: 20px;
+}
+.f_m ul{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.f_m ul li{
+    float: left;
+    font-size: 10px;
+}
+.f_m ul a{
+    display: block;
+    width: auto;
+    margin-bottom: 10px;
+    color: #5C6266;
+}
+.f_m ul a:hover{
+    text-decoration: underline;
+}
+
+.f_m ul .f_m_t:hover{
+    text-decoration: none;
+}
+.f_m ul .f_m_t{
+    color: #fff;
+    font-weight: bolder;
+}
+.f_b{
+    overflow: hidden;
+}
+.f_b_rk {
+    float: left;
+    width:228px;
+}
+.f_b_rk img{
+    margin-right: 8px;
+}
+.f_b_copy{
+    float: left;
+    width:800px;
+    color: #5C6266;
+    font-size: 10px;
+}
+.f_b_copy ul{
+    overflow: hidden;
+}
+.f_b_copy ul li{
+    float: left;
+}
+.f_b_copy ul li a{
+    color: #5C6266;
+}
+.f_b_copy ul li span{
+    margin:0 14px;
+}
+.copy{
+    margin-top: 4px;
+}
+.Placed_top{
+    width:60px;
+    height: 140px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    display:none;
+}
+.Placed_top div{
+    width:60px;
+    height: 60px;
+    opacity: .6;
+    cursor: pointer;
+
+}
+.Placed_top_img1{
+    background: #000 url("../img/Placed_top_qr.png") no-repeat center;
+    position: relative;
+}
+.Placed_top_img2{
+    background: #000 url("../img/Placed_top.png") no-repeat center;
+    margin-top: 20px;
+}
+.Placed_top_qrShow{
+    width:230px;
+    height: 290px;
+    border:1px #B0B0B0 solid;
+    background: #f8f8f8 url("../img/Logintoregister/Qrcode_3.png")no-repeat center 32px;
+    position: fixed;
+    bottom: 20px;
+    right:95px;
+    display: none;
+}
+.Placed_top_qrShow h1{
+    margin-top: 200px;
+    text-align: center;
+    font-size: 16px;
+}
+.Placed_top_qrShow p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+.Placed_top_qrShow span{
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+}
