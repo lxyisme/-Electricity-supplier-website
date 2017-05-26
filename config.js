@@ -8,5 +8,5 @@ requirejs.config({
         "jquery-ui":"http://code.jquery.com/ui/1.10.4/jquery-ui",
         "utli":"utli",
         "cookie":"cookie"   
-    }
+    }  
 });
